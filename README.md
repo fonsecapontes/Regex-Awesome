@@ -33,7 +33,7 @@ Regex used for string formatting
 ### IP
   `("192.168.0.1").replace(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)`
   
- ### IP
+### URL
   `("http://www.github.com").replace(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)`
 
 # Validation
