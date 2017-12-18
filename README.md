@@ -5,6 +5,8 @@
   * [CPF](#cpf)
   * [CNPJ](#cnpj)
   * [EMAIL](#email)
+  * [IP](#ip)
+  * [URL](#url)
 * [Validation](#validation) 
   * [Date](#date)
 
@@ -27,6 +29,12 @@ Regex used for string formatting
   
 ### EMAIL
   `("user@user.com").replace([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})`
+  
+### IP
+  `("192.168.0.1").replace(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)`
+  
+ ### IP
+  `("http://www.github.com").replace(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)`
 
 # Validation
 Regex used for validations
