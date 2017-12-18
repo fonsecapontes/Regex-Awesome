@@ -4,6 +4,7 @@
   * [CEP](#cep)
   * [CPF](#cpf)
   * [CNPJ](#cnpj)
+  * [EMAIL](#email)
 * [Validation](#validation) 
   * [Date](#date)
 
@@ -23,6 +24,9 @@ Regex used for string formatting
 ### CNPJ
   `("99999999999999").replace(/(\d{2})(\d{3})(\d{3})(\d{4})(\d{2})/g, "$1.$2.$3/$4-$5")`
   > 99.999.999/9999-99
+  
+### EMAIL
+  `("user@user.com").replace([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})`
 
 # Validation
 Regex used for validations
