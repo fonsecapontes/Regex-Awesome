@@ -5,11 +5,13 @@
   * [CPF](#cpf)
   * [CNPJ](#cnpj)
 * [Validation](#validation) 
-  * [Date](#date)
+  * [DATE DD/MM/YYYY](#date)
   * [EMAIL](#email)
   * [IP](#ip)
   * [URL](#url)
-
+  * [Integer Positive or Negative](#integerpositivenegative)
+  * [Integer Positive](#integerpositive)
+  * [Integer Negative](#integernegative)
  
 
 # Formatting
@@ -36,7 +38,7 @@ Regex used for validations
   > 31/01/2017 => true <br />
   > 31/02/2017 => false
 
-### EMAIL
+### Email
   `^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$`
   
 ### IP
@@ -44,3 +46,19 @@ Regex used for validations
   
 ### URL
   `(http|ftp|https)://([\w_-]+(?:(?:\.[\w_-]+)+))([\w.,@?^=%&:/~+#-]*[\w@?^=%&/~+#-])?`
+
+### Integer Positive or Negative
+  `^-?\d+$`
+  > 100 => true <br />
+  > -10 => true <br />
+  > AAA => false
+  
+  ### Integer Positive
+  `^\d+$`
+  > 100 => true <br />
+  > -10 => false
+
+### Integer Negative
+  `^-\d+$`
+  > -10 => true <br />
+  > 100 => false
