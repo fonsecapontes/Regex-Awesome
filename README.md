@@ -8,7 +8,7 @@
   * [Date DD/MM/YYYY](#date)
   * [Integer Negative](#integer-negative)
   * [Integer Positive](#integer-positive)
-  * [Integer Positive or Negative](#integer-positive-negative)
+  * [Integer Positive or Negative](#integer-positive-or-negative)
   * [IP](#ip)  
   * [Mail](#mail)  
   * [Time](#time)
