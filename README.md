@@ -9,7 +9,7 @@
   * [Integer Negative](#integer-negative)
   * [Integer Positive](#integer-positive)
   * [Integer Positive or Negative](#integer-positive-or-negative)
-  * [IP](#ipv4)  
+  * [IPv4](#ipv4)  
   * [Mail](#mail)  
   * [Time](#time)
   * [URL](#url)  
