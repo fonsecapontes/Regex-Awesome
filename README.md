@@ -12,9 +12,9 @@
   * [IPv4](#ipv4)  
   * [IPv6](#ipv6)
   * [Mail](#mail)  
-  * [Zip Code US](#zip-code-us)
   * [Time](#time)
   * [URL](#url)  
+  * [Zip Code US](#zip-code-us)
 
 # Formatting
 Regex used for string formatting
