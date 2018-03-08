@@ -12,6 +12,7 @@
   * [IPv4](#ipv4)  
   * [IPv6](#ipv6)
   * [Mail](#mail)  
+  * [Zip Code US)(#zip-code-us)
   * [Time](#time)
   * [URL](#url)  
 
@@ -65,6 +66,10 @@ Regex used for validations
 ### Mail
   `^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$`
   > mail@domain.com => true
+  
+### Zip Code US
+  `^\d{5}(?:[-\s]\d{4})?$`
+  > 12345-6789
   
 ### Time
   `^([0-9]|0[0-9]|1[0-9]|2[0-3]):[0-5][0-9]$`
