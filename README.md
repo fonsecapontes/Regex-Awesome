@@ -65,12 +65,8 @@ Regex used for validations
 
 ### Mail
   `^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$`
-  > mail@domain.com => true
-  
-### Zip Code US
-  `^\d{5}(?:[-\s]\d{4})?$`
-  > 12345-6789
-  
+  > mail@domain.com => true  
+
 ### Time
   `^([0-9]|0[0-9]|1[0-9]|2[0-3]):[0-5][0-9]$`
   > 18:56 => true
@@ -78,4 +74,8 @@ Regex used for validations
 ### URL
   `(http|ftp|https)://([\w_-]+(?:(?:\.[\w_-]+)+))([\w.,@?^=%&:/~+#-]*[\w@?^=%&/~+#-])?`
   > https://www.domain.com => true
+  
+### Zip Code US
+  `^\d{5}(?:[-\s]\d{4})?$`
+  > 12345-6789 
 
