@@ -15,6 +15,7 @@
   * [Time](#time)
   * [URL](#url)  
   * [Zip Code US](#zip-code-us)
+  * [Post Code Brazil](#post-code-brazil)
 
 # Formatting
 Regex used for string formatting
@@ -78,4 +79,7 @@ Regex used for validations
 ### Zip Code US
   `^\d{5}(?:[-\s]\d{4})?$`
   > 12345-6789 
-
+  
+### Post Code Brazil
+  `/^\d{5}-?\d{3}$/`
+  > 12345-678
