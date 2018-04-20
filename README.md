@@ -11,11 +11,11 @@
   * [Integer Positive or Negative](#integer-positive-or-negative)
   * [IPv4](#ipv4)  
   * [IPv6](#ipv6)
-  * [Mail](#mail)  
+  * [Mail](#mail)    
+  * [Post Code Brazil](#post-code-brazil)
   * [Time](#time)
   * [URL](#url)  
   * [Zip Code US](#zip-code-us)
-  * [Post Code Brazil](#post-code-brazil)
 
 # Formatting
 Regex used for string formatting
@@ -68,6 +68,10 @@ Regex used for validations
   `^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$`
   > mail@domain.com => true  
 
+### Post Code Brazil
+  `/^\d{5}-?\d{3}$/`
+  > 12345-678
+  
 ### Time
   `^([0-9]|0[0-9]|1[0-9]|2[0-3]):[0-5][0-9]$`
   > 18:56 => true
@@ -79,7 +83,3 @@ Regex used for validations
 ### Zip Code US
   `^\d{5}(?:[-\s]\d{4})?$`
   > 12345-6789 
-  
-### Post Code Brazil
-  `/^\d{5}-?\d{3}$/`
-  > 12345-678
